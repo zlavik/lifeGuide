@@ -1,0 +1,26 @@
+{
+  "name": "lifeguide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlavik/lifeGuide.git"
+  },
+  "engines": {
+    "node": "18.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zlavik/lifeGuide/issues"
+  },
+  "homepage": "https://github.com/zlavik/lifeGuide#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
